@@ -1,0 +1,48 @@
+ .heading{
+            text-align: center;
+        }
+
+        body{
+            background-image: url("image.png");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+        }
+
+     
+
+        .features{
+            border: 2px solid rgb(184, 184, 40);
+            margin-left: 20px;
+            padding: 20px; 
+            margin-bottom: 20px;
+            background-color: rgb(245, 243, 241);
+        }
+
+        .Rules{
+            border: 2px solid rgb(227, 230, 161);
+            margin-left: 20px;
+            padding: 20px; 
+        }
+
+        body * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .button1{
+            margin-right: 50px;
+        }
+
+        .formbox{
+            border: 2px solid black;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        .formbox h2{
+            color: rgb(9, 97, 103);
+        }
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       
+    </style>
+</head> 
+
+     <link rel="stylesheet" href="hostel_style.css">
+<body>   
+
+    <marquee behavior="alternate" direction="left">
+      
+        <img src="logo.png" alt="logo" height="50px"></marquee>
+
+         
+    
+
+    <div class="heading">
+        <h1><strong>Girivar Bhawan - HOSTEL 7</strong></h1>
+        The Iconic Boy's Hostel
+
+        <br>
+
+        The hostel is boy's dream hostel as it provides the best food among all the hostels.
+        <br><br><br><br><br><br>
+    </div>
+
+    <br>
+
+    <fieldset>
+        <legend>Information</legend>
+        <div class="features">
+            <h3>It contains following features :</h3>
+            <ul>
+                <li>It has 480 Single Seater Rooms</li>
+                <li>4 Haier Washing Machines</li>
+              
+                <li>Common Room with AC, newspaper, table tennis & chess facility</li>
+                <li>A volleyball and badminton court with night play accessibility</li>
+                <li>LAN connectivity which works 2 days/week</li>
+            </ul> 
+        </div>
+    </fieldset>
+
+    <div class="Rules">
+        <h3>It is Governed by Rules & regulations as follows :</h3>
+        <ul>
+            <li>Consumption of alcohol, cigarettes & drugs are not allowed inside rooms
+                (separate areas are provided for usage)
+            </li>
+            <li>Personal heaters are not allowed</li>
+            <li>Fees must be paid before the 21st day after registration</li>
+            <li>One must be respectful to all including students, management & workers</li>
+        </ul>
+    </div>
+
+    <div class="room">
+        <table border="2">
+            <tr>
+                <th>Room Type</th>
+                <th>Capacity</th>
+                <th>Semester Fee</th>
+            </tr>
+
+            <tr>
+                <td>Single</td>
+                <td>480</td>
+                <td>16000</td>
+            </tr>
+
+            <tr>
+                <td>Double</td>
+                <td>10</td>
+                <td>10000</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <h4>Name : <input type="text" name="name"></h4>
+        <h4>Phone No. <input type="tel" name="phone"></h4>
+        <h4>Email <input type="email" name="email"></h4>
+        <div class="button1"></div>
+        <button id="bt1" type="submit">Submit</button>
+    </div>
+
+    <br>
+
+    <h2>Select the following indoor games</h2>
+
+    <input list="indoor-games">
+    <datalist id="indoor-games">
+        <option value="Chess">
+        <option value="Ludo">
+        <option value="Carrom">
+    </datalist> 
+
+    <img src="map_demo.png" alt="map_image" usemap="#shapes">
+
+    <map name="shapes">
+        <area shape="circle" coords="455,165,90" href="profile.html">
+        <area shape="poly" coords="170,80,260,243,78,242" href="goals.html">
+        <area shape="rect" coords="662,85,809,240" href="profile.html">
+    </map>
+
+    <br>
+
+    <iframe src="profile.html" frameborder="10" title="Profile" width="90%" height="500px"></iframe>
+
+    <picture>
+        <source media="(min-width: 600px)" srcset="image.png">
+        <source media="(min-width: 300px)" srcset="image.png">
+        <img src="image.png" alt="background image" height="500px">
+    </picture>
+
+    <div class="formbox">
+        <form>
+            <label for="name"><h2>Student Name</h2></label>
+            <input type="text" name="name" placeholder="Student name">
+
+            <label for="roll"><h2>Roll No.</h2></label>
+            <input type="text" name="roll" placeholder="Roll No">
+
+            <label for="email"><h2>Email Id</h2></label>
+            <input type="email" name="email" placeholder="enter email">
+
+            <label for="contact"><h2>Contact No</h2></label>
+
+            <input type="tel" name="contact" placeholder="9301601955" required>
+
+            <label><h2>Leave Start Date</h2></label>
+            <input type="date" min="2026-02-04">
+
+            <label><h2>Leave End Date</h2></label>
+            <input type="date" max="2026-07-20">
+
+            <label><h2>Reason for Leave</h2></label>
+
+            <textarea name="reason" placeholder="Kindly add the reason"></textarea>
+
+            <h2>Select the Reason -></h2>
+            <input type="radio" name="reasonType"> Ghumi Ghumi <br>
+            <input type="radio" name="reasonType"> Medical <br>
+            <input type="radio" name="reasonType"> Family function <br>
+            <input type="radio" name="reasonType"> Other <br>
+
+            <h2>Where are you going ??</h2>
+            <input type="checkbox"> Chandigarh <br>
+            <input type="checkbox"> Shimla <br>
+            <input type="checkbox"> Amritsar <br>
+            <input type="checkbox"> Raghogarh <br>
+            <input type="checkbox"> Other <br>
+
+            <br><br>
+
+            <button type="submit" onclick="alert('Successfully Submitted!')">Submit</button>
+        </form>
+    </div>
+
+    <p>
+
+
+</body>
+
+</html>
